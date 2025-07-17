@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.right-nav .toggle-line{
+    cursor: pointer;
+    height: 2px;
+    width: 20px;
+    border: 2px solid;
+    margin: 1px;
+    border-radius: 3px;
+    background-color: #fff;
+    
+
+}
+
+
+.left-nav img{
+    position: absolute;
+    top: 0;
+    margin: px;
+    height: 50px;
+    border-radius: 50%;
+         
+
+}
+
+ #toggleA{
+        border: 3px solid;
+        height: 13px;
+        width: 39px;
+        border-radius: 9px;
+        display: flex;
+        /* justify-content: left; */
+        align-items: center;
+        /* margin-top: 80px; */
+
+    }
+
+    #toggleA .ballA{
+        background-color: black;
+        height: 13px;
+        width: 15px;
+        border-radius: 50%;
+    }
+
+nav{
+    /* position: fixed; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color:rgba(87, 13, 13, 0.597);
+    padding: 10px;
+    font-size: larger;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+  .pc-bar ul{
+    display: flex;
+    list-style: none;
+    align-items:end;
+    
+}
+
+nav ul li{
+    margin-left: 30px;
+     font-family:cursive;
+     font-weight: bold;
+     
+}
+ 
+
+@media (max-width:768px) {
+    .pc-bar{
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .menu-bar{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+
+}
+
+  .sidebar {
+    display: flex;
+    justify-content: space-between;
+        background-color: #fff;
+    /* border: 2px solid; */
+         
+    width: 40vw;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    
+    right: -500px;
+    /* z-index: 1000; */
+    transition: right 1.5s, z-index 0.5s ;
+    box-shadow: 1px 1px 10px black;
+
+}
+ 
+.sidebar.open {
+  right:0;
+} 
+ 
+ 
+.sidebar ul li{
+    list-style:  none;
+    margin: 8px;
+    font-family: cursive;
+    font-weight: bold;
+}
+ 
+.sidebar #Close{
+    margin: 9px;
+    margin-top: 16px;
+}
+.sidebar .toggle-line {
+
+    cursor: pointer;
+    height: 2px;
+    width: 20px;
+    border: 2px solid;
+    margin: 1px;
+    border-radius: 3px;
+    background-color: #fff;
+    /* margin: 9px; */
+
+}
+ 
