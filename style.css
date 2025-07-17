@@ -3,7 +3,9 @@
     padding: 0;
 }
 
- 
+ body{
+    height: 2000px;
+ }
 .right-nav .toggle-line{
     cursor: pointer;
     height: 2px;
@@ -14,6 +16,13 @@
     background-color: #fff;
     
 
+}
+
+.right-nav .menu-bar{
+    margin-right: 10px;
+}
+.right-nav .pc-bar{
+    margin-right: 15px;
 }
 
 
@@ -47,8 +56,8 @@
     }
 
 nav{
-    /* position: fixed; */
-    /* width: 100%; */
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
