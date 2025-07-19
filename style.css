@@ -53,8 +53,8 @@
  
 
 nav{
-    position: fixed;
-    width: 100%;
+    position: fixed; 
+     width: 100%;
     display: flex;
     justify-content: space-between;
     /* align-items: flex-end; */
@@ -129,11 +129,10 @@ nav ul li{
 }
 
   .sidebar{
-    display: flex;
-    /* justify-content: space-between; */
+    
         background-color: #fff;
           
-    /* width: 40vw; */
+    width: 70%;
     height: 100%;
 
     position: fixed;
@@ -149,18 +148,18 @@ nav ul li{
 .sidebar.open {
   left:0;
  } 
+
  
- #accountlogo{
-    margin-top: 24px;
-    position: absolute;
- }
+ 
  
 .sidebar ul li{
 
     list-style:  none;
     margin: 8px;
+    margin-left: 10px;
     font-family:monospace;
     font-weight: bold;
+    font-size: 15px;
     cursor: pointer;
 }
  
@@ -168,15 +167,55 @@ nav ul li{
     margin-top: 30px;
 }
 
-.sidebar ul li:first-child{
+.sidebar ul li:last-child{
  margin-left: 25px;
 }
 
  
 
 .sidebar #Close{
-    margin: 9px;
+    margin-right: 9px;
     margin-top: 10px;
     cursor: pointer;
+    text-align: end;
 }
  
+
+#accountname{
+    position: absolute; 
+     bottom: 5px;
+    left: 8px;
+     font-size: 14px;
+
+
+     
+
+}
+
+.sidebar .sidebar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#accountlogo{
+        position: absolute;
+        bottom: 7px;
+        left: 3px;
+ }
+ 
+ #editicon1{
+    height: 23px;
+    margin: 10px;
+    margin-top: 17px;
+    margin-right: 17px;
+ }
+
+ #input{
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #12040442;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+  }
