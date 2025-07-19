@@ -133,7 +133,7 @@ nav ul li{
         background-color: #fff;
           
     width: 70%;
-    height: 100vh;
+    height: 100%;
 
     position: fixed;
     top: 0;
@@ -184,7 +184,7 @@ nav ul li{
 
 #accountname{
     position: absolute; 
-     bottom: 7px;
+     bottom: 6px;
     left: 10px;
      font-size: 14px;
 
