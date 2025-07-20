@@ -1,4 +1,5 @@
-*{
+ /* PROJECT CSS  */
+ *{
     margin: 0;
     padding: 0;
     
@@ -72,6 +73,7 @@ nav{
     /* padding-top: ; */
     margin-bottom:30px ;
     background-color: #fff;
+    color: black;
 }
 nav .left-nav{
     font-family:Arial, Helvetica, sans-serif;
@@ -148,6 +150,7 @@ nav ul li{
     /* z-index: 1000; */
     transition: left 1.5s, z-index 0.5s ;
     box-shadow: 1px 1px 10px black;
+    color: black;
 
 }
  
@@ -258,7 +261,7 @@ nav ul li{
     height: 400px;
     width: 250px;
     /* justify-content: center; */
-    border-radius: 10px;
+    border-radius: 6px;
         box-shadow: 1px 1px 20px #fff;
         margin-bottom: 30px;
 
@@ -268,7 +271,7 @@ nav ul li{
         box-shadow: 1px 1px 10px yellow;
         .custom-btn{
         box-shadow: 1px 1px 10px #fff;
-                   }
+        }
 
 
   }
@@ -293,7 +296,6 @@ nav ul li{
     background-color:#ffffff30;
       /* box-shadow: 1px 1px 10px #fff; */
               box-shadow: 1px 1px 10px yellow;
-              font-family: monospace;
 
 
      
@@ -304,7 +306,7 @@ nav ul li{
     cursor: pointer;
     color: rgb(21, 16, 8);
     /* box-shadow: 1px 1px 20px white; */
-            /* box-shadow: 1px 1px 10px yellow; */
+            box-shadow: 1px 1px 10px yellow;
 
       width: 80px;
 
@@ -327,45 +329,25 @@ nav ul li{
 
 
  }
-
- 
  
 
+ 
+  
 
- @media (max-width:768px) {
-    .viewProject{
-    display: flex;
-    /* flex-direction: column; */
-}
-    
+ .back img{
+    height: 30px;
+    width: 50px;
+       display: inline-block;
+    margin-left: 10px;
+    margin-top: 50px;
+    position: fixed;
+     
  }
 
- .projectedit{
-    display: flex;
-    font-family: monospace;
-    margin-left: 30px;
-    flex-direction: column;
-     
-    border: 2px solid;
-    padding: 10px;
-    border-radius: 11px;
-    box-shadow: 1px 1px 20px blue;
-     /* height: 100px; */
-    color: #fff;
-    margin-left: 20px;
-        
+ .back  img:hover{
+    box-shadow: 1px 1px 20px white;
+    width: 55px;
+    height: 35px;
 
- 
- 
-}
-
-.viewProject a{
-    text-decoration: none;
-}
-
-.viewProject span{
-    margin: 5px;
-}
-
-
- 
+    
+ }
