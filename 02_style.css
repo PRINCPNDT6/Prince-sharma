@@ -160,28 +160,6 @@ nav ul li{
 
  
  
- 
-.sidebar ul li{
-
-    list-style:  none;
-    margin: 8px;
-    margin-left: 15px;
-    font-family:monospace;
-    font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
-    margin-bottom: 24px;
-}
- 
-.sidebar ul{
-    margin-top: 30px;
-}
-
-.sidebar ul li:last-child{
- margin-left: 25px;
-}
-
- 
 
 .sidebar #Close{
     margin-right: 9px;
@@ -202,16 +180,7 @@ nav ul li{
 
 }
 
-.sidebar .sidebar-nav{
-    display: flex;
-    justify-content: space-between;
-}
-
-#accountlogo{
-        position: absolute;
-        bottom: 25px;
-        left: 10px;
- }
+ 
  
  #editicon1{
     height: 23px;
@@ -219,6 +188,7 @@ nav ul li{
     margin-top: 17px;
     margin-right: 17px;
  }
+ 
 
  #input{
     margin: 10px;
@@ -249,6 +219,14 @@ nav ul li{
 
     
   }
+  .Project-H h3{
+    font-weight: bold;
+    font-family: monospace;
+    margin: 30px;
+
+  }
+ 
+
 
   .project .container{
         margin-top: 80px;

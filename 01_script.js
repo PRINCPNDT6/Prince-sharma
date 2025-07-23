@@ -5,17 +5,23 @@ const sideBar = document.getElementById('side-Bar');
   
         menuBar.addEventListener('click', () => {
           sideBar.classList.toggle('open');
+          const backarrowimg = document.getElementById('backarraw-img')
+            backarrowimg.style.display = 'none'
         });
       
   
 
+        
+        const close = document.getElementById('Close')
+        
+        close.addEventListener('click', () => {
+            sideBar.classList.toggle('open');
+            setTimeout(function(){
+             const backarrowimg = document.getElementById('backarraw-img')
+            backarrowimg.style.display = 'block'
+            },1000)
+             
 
-      
-
-            const close = document.getElementById('Close')
- 
-            close.addEventListener('click', () => {
-                sideBar.classList.toggle('open');
             });
 
             // darkmode toggle
