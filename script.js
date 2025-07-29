@@ -17,3 +17,10 @@ const sideBar = document.getElementById('side-Bar');
             sideBar.classList.toggle('open');
          
             });
+
+            const contactClose = document.getElementById('sidebar-contact')
+            contactClose.addEventListener('click', () => {
+          
+            sideBar.classList.remove('open');
+         
+            });
